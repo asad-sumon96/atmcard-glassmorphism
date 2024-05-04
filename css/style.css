@@ -1,0 +1,104 @@
+* {
+    font-family: opensans, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #111224;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ball {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ball-1 {
+    position: absolute;
+    transform: translate(-250px,-150px);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: linear-gradient(110deg, rgba(232,203,232,1) 5%, rgba(244,0,255,1) 100%);
+}
+
+.ball-2 {
+    position: absolute;
+    transform: translate(250px,150px);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: linear-gradient(110deg, rgba(232,203,232,1) 5%, rgba(244,0,255,1) 100%);
+}
+
+.card {
+    height: 300px;
+    width: 500px;
+    backdrop-filter: blur(8px) saturate(200%);
+    -webkit-backdrop-filter: blur(8px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 15px;
+}
+
+.card header {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 50px; padding-right: 5px;
+}
+
+.chip img {
+    width: 80px;
+}
+
+main cname {
+    font-size: 0.6rem;
+}
+
+main .cardnumber {
+    font-size: 1.3rem;
+    padding: 8px 0;
+}
+
+.card footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    align-items: end;
+}
+
+footer .cardholdername {
+    font-size: 1.2rem;
+}
+
+.valid {
+    text-align: center;
+}
+
+.v-date {
+    font-size: 1.2rem;
+}
